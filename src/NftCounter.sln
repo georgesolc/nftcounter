@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NftCounter.Api", "NftCounter\NftCounter.Api.csproj", "{BFB72EF6-0D70-4CBD-8081-255993EFE110}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NftCounter.Api.Contracts", "NftCounter.Api.Interface\NftCounter.Api.Contracts.csproj", "{DEE221A3-3D22-409C-B997-3F9AD015F849}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NftCounter.Api.Infrastructure", "NftCounter.Api.Infrastructure\NftCounter.Api.Infrastructure.csproj", "{F7795D60-011B-46EC-A674-8FA211BE416A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFB72EF6-0D70-4CBD-8081-255993EFE110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB72EF6-0D70-4CBD-8081-255993EFE110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB72EF6-0D70-4CBD-8081-255993EFE110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB72EF6-0D70-4CBD-8081-255993EFE110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE221A3-3D22-409C-B997-3F9AD015F849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE221A3-3D22-409C-B997-3F9AD015F849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE221A3-3D22-409C-B997-3F9AD015F849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE221A3-3D22-409C-B997-3F9AD015F849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7795D60-011B-46EC-A674-8FA211BE416A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7795D60-011B-46EC-A674-8FA211BE416A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7795D60-011B-46EC-A674-8FA211BE416A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7795D60-011B-46EC-A674-8FA211BE416A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D57B2BE6-A7CC-46AB-B28F-2694798D8A28}
+	EndGlobalSection
+EndGlobal
